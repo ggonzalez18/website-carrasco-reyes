@@ -1,0 +1,27 @@
+.btn-outline-celeste {
+    color: #0C5674;
+    border-color: #0C5674;
+    border: 2px solid;
+}
+
+.btn-outline-celeste:hover {
+    color: white;
+    background-color: #0C5674;
+    border-color: #0C5674;
+    border: 1px;
+}
+
+.colores {
+    /* azul */
+    color: #0C5674;
+    /* celeste */
+    color: #2A9FC6;
+    /* verde-agua */
+    color: #4EA5B0;
+    /* celeste-claro */
+    color: #A7CEDD;
+    /* gris-azulado */
+    color: #59707B;
+    /* gris */
+    color: #97A4A3;
+}
