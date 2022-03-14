@@ -1,71 +1,36 @@
-.banner--parallax {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-}
-
-.banner--img {
-    /* background-image: url('https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
-    background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;
-    width: 100%;
-    /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
-    animation: twinkle 0.9s infinite alternate;
-}
-
-@media only screen and (max-width: 600px) {
-    .banner--img {
-        height: 120vh;
-        background-position-y: -20px;
-    }
-}
-
 .text-index {
     text-shadow: 8px 8px 10px rgb(0, 0, 0);
 }
 
-
-/* fondo colores */
-
-
-/* .bg-azul {
-    background-color: #141414;
-} */
-
-.bg-negro-opacidad {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    animation: twinkle 0.9s infinite alternate;
+.link-active {
+    color: black;
+    font-weight: bolder;
 }
 
-@keyframes twinkle {
-    0% {
-        /* filter: brightness(0.9); */
-        /* background-color: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
-    }
-    100% {
-        /* filter: brightness(0.5); */
-        /* background-color: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); */
-    }
+.link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+
+.link:hover {
+    color: #2A9FC6;
+    font-weight: bolder;
+}
+
+
+/* footer */
 
 .footer-icon {
-    /* color: white; */
     color: #2A9FC6;
 }
 
 .footer-icon:hover {
     color: #0C5674;
-}
-
-.bg-celeste-claro {
-    background-color: #A7CEDD;
 }
 
 .colores {
@@ -81,4 +46,17 @@
     color: #59707B;
     /* gris */
     color: #97A4A3;
+}
+
+
+/* carousel */
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    color: black!important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 5%!important;
 }

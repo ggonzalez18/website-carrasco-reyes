@@ -1,0 +1,87 @@
+.banner--parallax {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.banner--img {
+    background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner--img {
+        height: 180vh;
+        background-position-y: -20px;
+    }
+}
+
+.bg-negro-opacidad {
+    height: 100%;
+    width: 100%;
+    animation: twinkle 1.5s infinite alternate;
+}
+
+@keyframes twinkle {
+    0% {
+        background-color: rgba(0, 0, 0, 0.466);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.137);
+    }
+}
+
+
+/* fondo colores */
+
+
+/* .bg-azul {
+    background-color: #141414;
+} */
+
+.bg-celeste-claro {
+    background-color: #A7CEDD;
+}
+
+.bg-corporativo {
+    background-image: url('../img/bg-fondoceleste.svg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-gris {
+    background-image: url('../img/bg-gris.svg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.bg-azul {
+    background-color: #0C5674;
+}
+
+.colores {
+    /* azul */
+    color: #0C5674;
+    /* celeste */
+    color: #2A9FC6;
+    /* verde-agua */
+    color: #4EA5B0;
+    /* celeste-claro */
+    color: #A7CEDD;
+    /* gris-azulado */
+    color: #59707B;
+    /* gris */
+    color: #97A4A3;
+}
