@@ -23,7 +23,7 @@
 }
 
 
-/* footer */
+/* footer icon*/
 
 .footer-icon {
     color: #2A9FC6;
@@ -33,8 +33,19 @@
     color: #0C5674;
 }
 
+
+/* hosting icon */
+
 .icon-hosting {
     color: #0C5674;
+}
+
+.icon-soporte-dos {
+    color: #0C5674;
+}
+
+.icon-soporte-dos:hover {
+    color: #2A9FC6;
 }
 
 .colores {
@@ -50,17 +61,4 @@
     color: #59707B;
     /* gris */
     color: #97A4A3;
-}
-
-
-/* carousel */
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    color: black!important;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    width: 5%!important;
 }
