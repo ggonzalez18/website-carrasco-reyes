@@ -11,6 +11,36 @@
     border: 1px;
 }
 
+.btn-azul-claro {
+    color: white;
+    background-color: #0f6f95;
+}
+
+.btn-azul-claro:hover {
+    color: white;
+    background-color: #0C5674;
+}
+
+.btn-azul-medio {
+    color: white;
+    background-color: #0C5674;
+}
+
+.btn-azul-medio:hover {
+    color: white;
+    background-color: #08374a;
+}
+
+.btn-azul-oscuro {
+    color: white;
+    background-color: #08374a;
+}
+
+.btn-azul-oscuro:hover {
+    color: white;
+    background-color: #052938;
+}
+
 .colores {
     /* azul */
     color: #0C5674;
