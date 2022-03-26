@@ -41,6 +41,16 @@
     background-color: #052938;
 }
 
+.btn-celeste {
+    color: white;
+    background-color: #2A9FC6;
+}
+
+.btn-celeste:hover {
+    color: white;
+    background-color: #0C5674;
+}
+
 .colores {
     /* azul */
     color: #0C5674;
