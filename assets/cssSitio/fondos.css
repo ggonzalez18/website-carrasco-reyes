@@ -31,7 +31,7 @@
     background-image: url('https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?t=st=1647315299~exp=1647315899~hmac=de9e4383967f51623906a2ebd845f5d407f08a31322242591f579556cc5a3a3d&w=1060');
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    /* height: 90vh; */
     background-attachment: fixed;
     width: 100%;
 }
@@ -131,6 +131,10 @@
 
 .bg-blanco-transparencia {
     background-color: rgba(255, 255, 255, 0.653);
+}
+
+.bg-celeste {
+    color: #2A9FC6;
 }
 
 .colores {
