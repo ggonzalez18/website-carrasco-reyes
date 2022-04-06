@@ -6,27 +6,6 @@
     margin-top: 70px;
 }
 
-
-/* 
-.banner--img {
-    background-image: url('https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
-    background-attachment: fixed;
-    width: 100%;
-} */
-
-
-/* .banner--img {
-    background-image: url('https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?t=st=1647315299~exp=1647315899~hmac=de9e4383967f51623906a2ebd845f5d407f08a31322242591f579556cc5a3a3d&w=1060');
-    background-position: center;
-    background-size: cover;
-    height: 90vh;
-    background-attachment: fixed;
-    width: 100%;
-} */
-
 .banner--img {
     background-image: url('https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?t=st=1647315299~exp=1647315899~hmac=de9e4383967f51623906a2ebd845f5d407f08a31322242591f579556cc5a3a3d&w=1060');
     background-position: center;
@@ -130,24 +109,9 @@
 }
 
 .bg-celeste {
-    color: #00A2C9;
+    background-color: #00A2C9;
 }
 
 .bg-celeste-claro {
     background-color: #8FD0E0;
-}
-
-.colores {
-    /* azul */
-    color: #015473;
-    /* celeste */
-    color: #00A2C9;
-    /* verde-agua */
-    color: #4EA5B0;
-    /* celeste-claro */
-    color: #8FD0E0;
-    /* gris-azulado */
-    color: #59707B;
-    /* gris */
-    color: #97A4A3;
 }
