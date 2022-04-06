@@ -18,7 +18,7 @@
 }
 
 .link:hover {
-    color: #2A9FC6;
+    color: #00A2C9;
     font-weight: bolder;
 }
 
@@ -26,37 +26,37 @@
 /* footer icon*/
 
 .footer-icon {
-    color: #2A9FC6;
+    color: white;
 }
 
 .footer-icon:hover {
-    color: #0C5674;
+    color: #00A2C9;
 }
 
 
 /* hosting icon */
 
 .icon-hosting {
-    color: #0C5674;
+    color: #015473;
 }
 
 .icon-soporte-dos {
-    color: #0C5674;
+    color: #015473;
 }
 
 .icon-soporte-dos:hover {
-    color: #2A9FC6;
+    color: #00A2C9;
 }
 
 .colores {
     /* azul */
-    color: #0C5674;
+    color: #015473;
     /* celeste */
-    color: #2A9FC6;
+    color: #00A2C9;
     /* verde-agua */
     color: #4EA5B0;
     /* celeste-claro */
-    color: #A7CEDD;
+    color: #8FD0E0;
     /* gris-azulado */
     color: #59707B;
     /* gris */

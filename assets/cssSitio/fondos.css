@@ -61,10 +61,6 @@
 
 /* fondo colores */
 
-.bg-celeste-claro {
-    background-color: #A7CEDD;
-}
-
 .bg-section-hosting {
     background-image: url('https://img.freepik.com/foto-gratis/fondo-red-empresarial-conexion-puntos-diseno-tecnologia_53876-160202.jpg?w=996&t=st=1648250919~exp=1648251519~hmac=7b48679e06f228d2e3d6d765bfad3b5b5c72deaba33702de44c26d5f990d72b6');
     background-position: center;
@@ -106,7 +102,7 @@
 }
 
 .bg-azul {
-    background-color: #0C5674;
+    background-color: #015473;
 }
 
 .bg-azul-claro {
@@ -114,7 +110,7 @@
 }
 
 .bg-azul-medio {
-    background-color: #0C5674;
+    background-color: #015473;
 }
 
 .bg-azul-oscuro {
@@ -134,18 +130,22 @@
 }
 
 .bg-celeste {
-    color: #2A9FC6;
+    color: #00A2C9;
+}
+
+.bg-celeste-claro {
+    background-color: #8FD0E0;
 }
 
 .colores {
     /* azul */
-    color: #0C5674;
+    color: #015473;
     /* celeste */
-    color: #2A9FC6;
+    color: #00A2C9;
     /* verde-agua */
     color: #4EA5B0;
     /* celeste-claro */
-    color: #A7CEDD;
+    color: #8FD0E0;
     /* gris-azulado */
     color: #59707B;
     /* gris */

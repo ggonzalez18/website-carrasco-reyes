@@ -1,14 +1,14 @@
 .btn-outline-celeste {
-    color: #0C5674;
-    border-color: #0C5674;
-    border: 2px solid;
+    color: #015473;
+    /* border-color: #015473; */
+    border: 2px solid #015473;
 }
 
 .btn-outline-celeste:hover {
     color: white;
-    background-color: #0C5674;
-    border-color: #0C5674;
-    border: 1px;
+    background-color: #015473;
+    border-color: #015473;
+    border: 2px solid;
 }
 
 .btn-azul-claro {
@@ -18,12 +18,12 @@
 
 .btn-azul-claro:hover {
     color: white;
-    background-color: #0C5674;
+    background-color: #015473;
 }
 
 .btn-azul-medio {
     color: white;
-    background-color: #0C5674;
+    background-color: #015473;
 }
 
 .btn-azul-medio:hover {
@@ -43,23 +43,33 @@
 
 .btn-celeste {
     color: white;
-    background-color: #2A9FC6;
+    background-color: #00A2C9;
 }
 
 .btn-celeste:hover {
     color: white;
-    background-color: #0C5674;
+    background-color: #015473;
+}
+
+.btn-blanco {
+    color: #015473;
+    background-color: white;
+}
+
+.btn-blanco:hover {
+    color: white;
+    background-color: #00A2C9;
 }
 
 .colores {
     /* azul */
-    color: #0C5674;
+    color: #015473;
     /* celeste */
-    color: #2A9FC6;
+    color: #00A2C9;
     /* verde-agua */
     color: #4EA5B0;
     /* celeste-claro */
-    color: #A7CEDD;
+    color: #8FD0E0;
     /* gris-azulado */
     color: #59707B;
     /* gris */
