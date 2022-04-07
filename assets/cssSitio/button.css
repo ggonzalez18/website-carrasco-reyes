@@ -6,8 +6,7 @@
 .btn-outline-celeste:hover {
     color: white;
     background-color: #015473;
-    border-color: #015473;
-    border: 2px solid;
+    border: 2px solid #015473;
 }
 
 .btn-azul-claro {
