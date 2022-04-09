@@ -1,3 +1,5 @@
+/*  fondos banner */
+
 .banner--parallax {
     display: flex;
     width: 100%;
@@ -7,7 +9,7 @@
 }
 
 .banner--img {
-    background-image: url('https://img.freepik.com/foto-gratis/fondo-concepto-big-data-conexion-red-wireframeshapes-abstracto-poligonal-linea-punto_90220-496.jpg?t=st=1647315299~exp=1647315899~hmac=de9e4383967f51623906a2ebd845f5d407f08a31322242591f579556cc5a3a3d&w=1060');
+    background-image: url('../img/banner-index.jpg');
     background-position: center;
     background-size: cover;
     /* height: 90vh; */
@@ -38,10 +40,10 @@
 }
 
 
-/* fondo colores */
+/* fondo imagenes */
 
 .bg-section-hosting {
-    background-image: url('https://img.freepik.com/foto-gratis/fondo-red-empresarial-conexion-puntos-diseno-tecnologia_53876-160202.jpg?w=996&t=st=1648250919~exp=1648251519~hmac=7b48679e06f228d2e3d6d765bfad3b5b5c72deaba33702de44c26d5f990d72b6');
+    background-image: url('../img/fondo.planes.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 80px;
@@ -68,13 +70,16 @@
 }
 
 .bg-soporte {
-    background-image: url('https://img.freepik.com/foto-gratis/fondo-azul-tecnologia-datos-medios-remezclados-hacker_53876-108534.jpg?w=900&t=st=1647624274~exp=1647624874~hmac=74da65de931a4257580e8f642eb971cbcc34f425f5ddf09aeb3c05a85c99cd15');
+    background-image: url('../img/banner-soporte.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 80px;
     background-repeat: no-repeat;
     width: 100%;
 }
+
+
+/* fondo colores */
 
 .bg-gris {
     background-color: #e9e9e9;
